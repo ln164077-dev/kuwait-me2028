@@ -10,10 +10,8 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', 'b34156c2-ce74-4db5-9123-fdd82dc3a67f', {});
-
+snaptr('init', '7f63020a-03dc-483a-a24d-645d21352ead', {});
 snaptr('track', 'PAGE_VIEW');
-
 </script>
 <!-- End Snap Pixel Code -->
 <meta charset="UTF-8">
@@ -29,160 +27,217 @@ snaptr('track', 'PAGE_VIEW');
 <meta property="og:description" content="بوكس دجاج 10 حبات + 5 صحون صدور دجاج + كيس أرز بسمتي فاخر 10 كيلو، بسعر 5.000 ر.ع مع توصيل مجاني في عمان.">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<!-- Tailwind CSS & FontAwesome -->
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
-* { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; -webkit-tap-highlight-color: transparent; }
-body { background: #f8f9fa; color: #111; padding-bottom: 100px; }
-a { text-decoration: none; color: inherit; }
-
-/* ── رأس الصفحة ── */
-.MainContainer_headerContainer__RY5Ne { background: #fff; position: sticky; top: 0; z-index: 100; box-shadow: 0 1px 3px rgba(0,0,0,.07); }
-.Header_header__HSEQ9 { max-width: 1400px; margin: 0 auto; padding: 10px 15px; }
-.Header_nav__DVSK7 { display: flex; justify-content: space-between; align-items: center; }
-.Header_logoWithCatalog__v4fgc { display: flex; align-items: center; gap: 10px; }
-.Logo_logo__oq6_b { display: block; width: 35px; height: 35px; position: relative; }
-.Logo_fullLogo__l2rPp { width: 100%; height: 100%; object-fit: contain; }
-.Header_sideWrapper__3FSV4 { display: flex; align-items: center; gap: 8px; }
-.CartButton_wrapper__DN_bX { display: flex; align-items: center; gap: 6px; }
-.CartButton_wrapper__DN_bX .Button_primary__SrbPy {
-  background-color: #2d6a4f; color: #fff; border: none; padding: 7px 14px;
-  border-radius: 10px; font-weight: bold; cursor: pointer; display: flex;
-  align-items: center; gap: 6px; font-size: 13px;
-}
-.Header_homeBtn__Z1xQp {
-  background: #f1f3f5; border: none; padding: 7px 12px; border-radius: 10px;
-  font-weight: 600; cursor: pointer; font-size: 13px; color: #111;
-}
-
-/* ── المحتوى ── */
-.wrap { max-width: 1000px; margin: 0 auto; padding: 15px; }
-.breadcrumb { font-size: 13px; color: #777; margin: 10px 0 18px; }
-.breadcrumb a { color: #2d6a4f; }
-.card { background: #fff; border-radius: 16px; box-shadow: 0 2px 10px rgba(0,0,0,.06); overflow: hidden; display: flex; flex-wrap: wrap; }
-.card-img { flex: 1 1 320px; background: #f1f3f5; display: flex; align-items: center; justify-content: center; min-height: 300px; position: relative; }
-.card-img img { width: 100%; height: 100%; object-fit: cover; max-height: 420px; }
-.card-body { flex: 1 1 320px; padding: 26px; display: flex; flex-direction: column; gap: 14px; }
-h1 { font-size: 24px; color: #111; line-height: 1.5; font-weight: 800; }
-.desc { color: #444; line-height: 1.9; font-size: 15px; }
-.price { font-size: 26px; font-weight: 800; color: #2d6a4f; }
-.price small { font-size: 15px; font-weight: 600; }
-.badges { display: flex; gap: 8px; flex-wrap: wrap; }
-.badge { background: #e8f4ea; color: #1e7e34; font-size: 12px; font-weight: 700; padding: 5px 12px; border-radius: 20px; }
-.badge.blue { background: #e7f1f8; color: #2d6a4f; }
-
-/* زر الطلب الوحيد */
-.buy-area { position: relative; margin-top: auto; display: flex; }
-.OrderNowButton {
-  background: #2d6a4f; color: #fff; border: none; padding: 14px 24px;
-  border-radius: 12px; font-weight: 800; cursor: pointer; font-size: 16px; width: 100%;
-  text-align: center; transition: background 0.2s;
-}
-.OrderNowButton:hover { background: #1b4332; }
-
-.section { background: #fff; border-radius: 16px; box-shadow: 0 2px 10px rgba(0,0,0,.06); padding: 22px 26px; margin-top: 18px; }
-.section h2 { font-size: 18px; color: #2d6a4f; margin-bottom: 12px; }
-.section p { color: #444; line-height: 2; font-size: 14.5px; }
-.includes, .details-list { list-style: none; display: flex; flex-direction: column; gap: 8px; margin: 2px 0; }
-.includes li, .details-list li {
-  position: relative; padding: 10px 14px 10px 34px; background: #f8f9fa;
-  border: 1px solid #e8ecea; border-radius: 10px; color: #333; font-size: 14px; line-height: 1.8;
-}
-.includes li::before, .details-list li::before {
-  content: '✓'; position: absolute; right: 12px; top: 10px; color: #2d6a4f; font-weight: 800;
-}
-.details-list { margin-top: 14px; }
-.details-list li { background: #fff; }
-.details-list strong, .includes strong { color: #1b4332; }
-.footer { text-align: center; color: #999; font-size: 13px; padding: 26px 15px; }
-.footer a { color: #2d6a4f; }
-
-/* ── شريط السلة العائم أسفل الشاشة ── */
-.FloatingCartBar {
-  position: fixed; bottom: 15px; left: 5%; width: 90%; max-width: 500px;
-  background-color: #cccccc; color: #666666; border-radius: 16px; padding: 12px 18px;
-  display: flex; justify-content: space-between; align-items: center;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); z-index: 1000; cursor: pointer;
-  transition: all 0.3s ease;
-}
-.FloatingCartBar.active-cart { background-color: #2d6a4f; color: white; box-shadow: 0 8px 20px rgba(45, 106, 79, 0.3); }
-.FloatingCartBar .cart-text { font-size: 14px; font-weight: bold; display: flex; align-items: center; gap: 6px; }
-.FloatingCartBar .cart-badge {
-  background: #e0e0e0; color: #666; width: 24px; height: 24px; border-radius: 50%;
-  display: flex; align-items: center; justify-content: center; font-size: 12px;
-  font-weight: bold; transition: all 0.3s ease;
-}
-.FloatingCartBar.active-cart .cart-badge { background: #ffffff; color: #2d6a4f; }
-.FloatingCartBar .cart-price { font-size: 14px; font-weight: bold; }
+  @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+  body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f4f7f5;
+    color: #1a2e22;
+  }
+  .pulse-badge {
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(45, 106, 79, 0.7); }
+    70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(45, 106, 79, 0); }
+    100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(45, 106, 79, 0); }
+  }
 </style>
 </head>
-<body>
+<body class="bg-gradient-to-b from-emerald-50/50 to-gray-50 min-h-screen pb-32">
 
-<!-- رأس الصفحة -->
-<div class="MainContainer_headerContainer__RY5Ne">
-  <header class="Header_header__HSEQ9">
-    <div class="Header_nav__DVSK7">
-      <div class="Header_logoWithCatalog__v4fgc">
-        <a class="Logo_logo__oq6_b" href="/">
-        <img alt="أرياف" src="assets/images/areaf-logo.webp" class="Logo_fullLogo__l2rPp"></a>
-      </div>
-      <div class="Header_sideWrapper__3FSV4">
-        <div class="CartButton_wrapper__DN_bX">
-          <button class="Button_primary__SrbPy" type="button" onclick="goToCart()">🛒 السلة (<span id="header-total">0.000 ر.ع</span>)</button>
+<!-- رأس الصفحة العصري -->
+<div class="MainContainer_headerContainer__RY5Ne bg-white/90 backdrop-blur-md sticky top-0 z-50 shadow-sm border-b border-emerald-100">
+  <header class="Header_header__HSEQ9 max-w-7xl mx-auto px-4 sm:px-6 py-3">
+    <div class="Header_nav__DVSK7 flex justify-between items-center">
+      <div class="Header_logoWithCatalog__v4fgc flex items-center gap-3">
+        <a class="Logo_logo__oq6_b block w-10 h-10 relative bg-emerald-100 rounded-xl p-1.5 flex items-center justify-center shadow-inner" href="/">
+          <img alt="أرياف" src="assets/images/areaf-logo.webp" class="Logo_fullLogo__l2rPp w-full h-full object-contain" onerror="this.src='https://placehold.co/100x100/2d6a4f/ffffff?text=أرياف'">
+        </a>
+        <div>
+          <span class="font-extrabold text-lg text-emerald-900 tracking-tight block">أرياف · Areef</span>
+          <span class="text-xs text-emerald-600 font-medium block">منتجات طازجة يومياً</span>
         </div>
+      </div>
+      <div class="Header_sideWrapper__3FSV4 flex items-center gap-3">
+        <button class="Button_primary__SrbPy bg-emerald-700 hover:bg-emerald-800 text-white font-bold px-4 py-2.5 rounded-xl text-sm transition-all shadow-md shadow-emerald-700/20 flex items-center gap-2" type="button" onclick="goToCart()">
+          <i class="fa-solid fa-cart-shopping text-emerald-200"></i>
+          <span>السلة</span>
+          <span id="header-total" class="bg-emerald-900/40 px-2 py-0.5 rounded-lg text-xs font-extrabold">0.000 ر.ع</span>
+        </button>
       </div>
     </div>
   </header>
 </div>
 
-<main class="wrap">
-  <nav class="breadcrumb" aria-label="breadcrumb">
+<main class="wrap max-w-6xl mx-auto px-4 pt-6">
+  
+  <!-- شريط تنبيه العرض المحدود والعداد التنازلي -->
+  <div class="bg-gradient-to-r from-emerald-800 to-emerald-900 text-white rounded-2xl p-4 mb-6 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div class="flex items-center gap-3">
+      <div class="bg-emerald-700 p-2.5 rounded-xl text-amber-300 text-xl shadow-inner">
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+      <div>
+        <h3 class="font-bold text-base sm:text-lg">عرض محدود: باقة التوفير الكبرى</h3>
+        <p class="text-xs sm:text-sm text-emerald-200">اطلب الآن واستفد من التوصيل المجاني السريع خلال 40 دقيقة!</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-2 bg-emerald-950/60 px-4 py-2 rounded-xl border border-emerald-700/50 text-xs sm:text-sm font-bold">
+      <span class="text-emerald-300">ينتهي العرض خلال:</span>
+      <span id="countdown" class="text-amber-400 font-mono text-base tracking-wider">03:45:20</span>
+    </div>
+  </div>
+
+  <nav class="breadcrumb text-xs text-gray-500 mb-4" aria-label="breadcrumb">
+    <a href="/" class="text-emerald-700 hover:underline">الرئيسية</a> / <span class="text-gray-700 font-semibold">باقة التوفير الكبرى</span>
   </nav>
 
-  <div class="contentBox" id="contentBox">
-    <article class="card" itemscope itemtype="https://schema.org/Product">
-      <div class="card-img">
-        <img id="p-img" src="/assets/images/bundle-saver-big.webp" alt="باقة التوفير الكبرى — دجاج وأرز بسمتي من أرياف" itemprop="image">
+  <div class="contentBox space-y-6" id="contentBox">
+    <!-- بطاقة المنتج الرئيسية -->
+    <article class="card bg-white rounded-3xl shadow-xl border border-emerald-50 overflow-hidden flex flex-col lg:flex-row" itemscope itemtype="https://schema.org/Product">
+      
+      <!-- قسم الصور -->
+      <div class="card-img lg:w-1/2 bg-gradient-to-br from-gray-50 to-emerald-50/30 relative flex items-center justify-center p-6 min-h-[350px]">
+        <div class="absolute top-4 right-4 z-10 flex flex-col gap-2">
+          <span class="bg-rose-600 text-white font-extrabold text-xs px-3 py-1.5 rounded-full shadow-md flex items-center gap-1">
+            <i class="fa-solid fa-fire"></i> خصم خاص
+          </span>
+          <span class="bg-emerald-700 text-white font-bold text-xs px-3 py-1.5 rounded-full shadow-md">
+            الأكثر مبيعاً
+          </span>
+        </div>
+        <img id="p-img" src="/assets/images/bundle-saver-big.webp" alt="باقة التوفير الكبرى — دجاج وأرز بسمتي من أرياف" itemprop="image" class="w-full max-h-[450px] object-cover rounded-2xl shadow-md transition-transform duration-500 hover:scale-105" onerror="this.src='https://placehold.co/600x400/2d6a4f/ffffff?text=باقة+التوفير+الكبرى'">
       </div>
-      <div class="card-body">
-        <h1 itemprop="name" id="p-name">باقة التوفير الكبرى</h1>
-        <div class="badges">
-          <span class="badge">✅ طازج يومياً</span>
-          <span class="badge blue">🚚 توصيل مجاني خلال 40 دقيقة</span>
-          <span class="badge blue">داخل سلطنة عمان</span>
-          <span class="badge">🔥 عرض التوفير</span>
+
+      <!-- تفاصيل المنتج وخصائصه -->
+      <div class="card-body lg:w-1/2 p-6 sm:p-8 flex flex-col justify-between gap-6">
+        <div>
+          <h1 itemprop="name" id="p-name" class="text-2xl sm:text-3xl font-black text-gray-900 leading-snug mb-3">باقة التوفير الكبرى</h1>
+          
+          <div class="badges flex flex-wrap gap-2 mb-4">
+            <span class="badge bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold px-3 py-1 rounded-xl flex items-center gap-1">
+              <i class="fa-solid fa-circle-check text-emerald-600"></i> طازج يومياً
+            </span>
+            <span class="badge blue bg-sky-50 text-sky-800 border border-sky-200 text-xs font-bold px-3 py-1 rounded-xl flex items-center gap-1">
+              <i class="fa-solid fa-truck-fast text-sky-600"></i> توصيل مجاني خلال 40 دقيقة
+            </span>
+            <span class="badge bg-amber-50 text-amber-800 border border-amber-200 text-xs font-bold px-3 py-1 rounded-xl">
+              داخل سلطنة عمان 🇴🇲
+            </span>
+          </div>
+
+          <p class="desc text-gray-600 text-sm sm:text-base leading-relaxed mb-4" itemprop="description" id="p-desc">
+            باقة عائلية متكاملة تجمع الدجاج الطازج مع الأرز البسمتي الفاخر بسعر واحد. تشمل الباقة:
+          </p>
+
+          <!-- قائمة مكونات الباقة بتصميم بطاقات تفاعلية -->
+          <ul class="includes space-y-2 mb-6">
+            <li class="bg-gray-50 border border-emerald-100/80 p-3 rounded-xl flex items-start gap-3 transition-all hover:bg-emerald-50/40">
+              <span class="bg-emerald-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs flex-shrink-0 mt-0.5"><i class="fa-solid fa-check"></i></span>
+              <div class="text-sm text-gray-700"><strong>بوكس دجاج:</strong> 10 حبات، وزن كل حبة 900 غرام (إجمالي 9 كيلو).</div>
+            </li>
+            <li class="bg-gray-50 border border-emerald-100/80 p-3 rounded-xl flex items-start gap-3 transition-all hover:bg-emerald-50/40">
+              <span class="bg-emerald-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs flex-shrink-0 mt-0.5"><i class="fa-solid fa-check"></i></span>
+              <div class="text-sm text-gray-700"><strong>صدور دجاج:</strong> 5 صحون، وزن كل صحن 500 غرام (إجمالي 2.5 كيلو).</div>
+            </li>
+            <li class="bg-gray-50 border border-emerald-100/80 p-3 rounded-xl flex items-start gap-3 transition-all hover:bg-emerald-50/40">
+              <span class="bg-emerald-600 text-white w-6 h-6 rounded-full flex items-center justify-center text-xs flex-shrink-0 mt-0.5"><i class="fa-solid fa-check"></i></span>
+              <div class="text-sm text-gray-700"><strong>أرز بسمتي فاخر:</strong> كيس 10 كيلو من النوع الفاخر.</div>
+            </li>
+          </ul>
         </div>
-        <p class="desc" itemprop="description" id="p-desc">باقة عائلية متكاملة تجمع الدجاج الطازج مع الأرز البسمتي الفاخر بسعر واحد. تشمل الباقة:</p>
-        <ul class="includes">
-          <li><strong>بوكس دجاج:</strong> 10 حبات، وزن كل حبة 900 غرام (إجمالي 9 كيلو).</li>
-          <li><strong>صدور دجاج:</strong> 5 صحون، وزن كل صحن 500 غرام (إجمالي 2.5 كيلو).</li>
-          <li><strong>أرز بسمتي فاخر:</strong> كيس 10 كيلو من النوع الفاخر.</li>
-        </ul>
-        <div class="price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-          <meta itemprop="priceCurrency" content="OMR">
-          <span itemprop="price" content="5.000" id="p-price">5.000</span> <small>ر.ع</small>
+
+        <div>
+          <!-- الأسعار -->
+          <div class="flex items-baseline justify-between mb-5 bg-emerald-50/60 p-4 rounded-2xl border border-emerald-100" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+            <div>
+              <span class="text-xs text-gray-500 block mb-0.5">السعر الشامل للباقة</span>
+              <div class="price text-3xl sm:text-4xl font-extrabold text-emerald-800 flex items-baseline gap-1">
+                <meta itemprop="priceCurrency" content="OMR">
+                <span itemprop="price" content="5.000" id="p-price">5.000</span>
+                <small class="text-base font-bold text-emerald-700">ر.ع</small>
+              </div>
+            </div>
+            <div class="text-right">
+              <span class="text-xs text-rose-600 font-bold bg-rose-50 px-2 py-1 rounded-lg border border-rose-100 line-through">7.500 ر.ع</span>
+              <span class="block text-xs text-emerald-600 font-bold mt-1">توفير مضمون</span>
+            </div>
+          </div>
+
+          <!-- زر اطلب الآن الرئيسي -->
+          <div class="buy-area">
+            <button class="OrderNowButton bg-gradient-to-r from-emerald-700 to-emerald-900 hover:from-emerald-800 hover:to-emerald-950 text-white font-extrabold py-4 px-6 rounded-2xl text-lg w-full text-center shadow-xl shadow-emerald-800/25 transition-all transform hover:-translate-y-0.5 active:translate-y-0 flex items-center justify-center gap-3" type="button" onclick="orderNow()">
+              <i class="fa-solid fa-bag-shopping text-xl"></i>
+              <span>اطلب الآن واستفد من العرض 🚀</span>
+            </button>
+          </div>
         </div>
-        <!-- زر اطلب الآن الوحيد -->
-        <div class="buy-area">
-          <button class="OrderNowButton" type="button" onclick="orderNow()">اطلب الآن 🚀</button>
-        </div>
+
       </div>
     </article>
 
-    <section class="section">
-      <h2>تفاصيل الباقة</h2>
-      <p>صمّمنا <strong>باقة التوفير الكبرى</strong> لتكفي احتياج الأسرة من البروتين الأساسي والنشويات في طلب واحد وبسعر مميز. تجمع الباقة الدجاج الطازج بنوعيه مع الأرز البسمتي الفاخر، لتوفّر عليك عناء الشراء من أكثر من مكان وتضمن لك جودة موحّدة.</p>
-      <ul class="details-list">
-        <li><strong>بوكس الدجاج:</strong> 10 حبات كاملة، وزن كل حبة 900 غرام — طازج ومجهّز بعناية (إجمالي 9 كيلو).</li>
-        <li><strong>صدور الدجاج:</strong> 5 صحون مقطّعة، وزن كل صحن 500 غرام (إجمالي 2.5 كيلو) — مثالية للشوي والطبخ السريع.</li>
-        <li><strong>الأرز البسمتي:</strong> كيس 10 كيلو من النوع الفاخر، حبة طويلة تصلح للكبسة والمندي والأطباق اليومية.</li>
+    <!-- قسم تفاصيل إضافية عن الباقة والجودة -->
+    <section class="section bg-white rounded-3xl shadow-xl p-6 sm:p-8 border border-emerald-50">
+      <h2 class="text-xl sm:text-2xl font-black text-emerald-900 mb-4 flex items-center gap-2">
+        <i class="fa-solid fa-circle-info text-emerald-600"></i>
+        <span>تفاصيل الباقة والجودة</span>
+      </h2>
+      <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-6">
+        صمّمنا <strong>باقة التوفير الكبرى</strong> لتكفي احتياج الأسرة من البروتين الأساسي والنشويات في طلب واحد وبسعر مميز. تجمع الباقة الدجاج الطازج بنوعيه مع الأرز البسمتي الفاخر، لتوفّر عليك عناء الشراء من أكثر من مكان وتضمن لك جودة موحّدة.
+      </p>
+
+      <ul class="details-list grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <li class="bg-gray-50/80 border border-gray-200/80 p-4 rounded-2xl">
+          <div class="text-emerald-700 font-bold mb-1 flex items-center gap-2"><i class="fa-solid fa-drumstick-bite"></i> بوكس الدجاج</div>
+          <p class="text-xs text-gray-600 leading-relaxed">10 حبات كاملة، وزن كل حبة 900 غرام — طازج ومجهّز بعناية (إجمالي 9 كيلو).</p>
+        </li>
+        <li class="bg-gray-50/80 border border-gray-200/80 p-4 rounded-2xl">
+          <div class="text-emerald-700 font-bold mb-1 flex items-center gap-2"><i class="fa-solid fa-utensils"></i> صدور الدجاج</div>
+          <p class="text-xs text-gray-600 leading-relaxed">5 صحون مقطّعة، وزن كل صحن 500 غرام (إجمالي 2.5 كيلو) — مثالية للشوي والطبخ السريع.</p>
+        </li>
+        <li class="bg-gray-50/80 border border-gray-200/80 p-4 rounded-2xl">
+          <div class="text-emerald-700 font-bold mb-1 flex items-center gap-2"><i class="fa-solid fa-wheat-awn"></i> الأرز البسمتي</div>
+          <p class="text-xs text-gray-600 leading-relaxed">كيس 10 كيلو من النوع الفاخر، حبة طويلة تصلح للكبسة والمندي والأطباق اليومية.</p>
+        </li>
       </ul>
-      <p>نحرص في أرياف على معايير جودة عالية وتخزين ونقل مبرّد يضمن وصول طلبك طازجاً إلى بابك خلال وقت قياسي، مع التوصيل المجاني داخل سلطنة عمان.</p>
+
+      <div class="bg-emerald-50/50 border border-emerald-100 p-4 rounded-2xl flex items-start gap-3">
+        <i class="fa-solid fa-shield-halved text-emerald-700 text-xl mt-1"></i>
+        <p class="text-xs sm:text-sm text-emerald-900 leading-relaxed">
+          نحرص في أرياف على معايير جودة عالية وتخزين ونقل مبرّد يضمن وصول طلبك طازجاً إلى بابك خلال وقت قياسي، مع التوصيل المجاني داخل سلطنة عمان.
+        </p>
+      </div>
     </section>
+
   </div>
 </main>
 
-<footer class="footer">أرياف — توصيل المنتجات الطازجة في عمان OM<br>
-<a href="/">الرئيسية</a> · <a href="/terms.html">الشروط والأحكام</a> · <a href="/privacy.html">سياسة الخصوصية</a></footer>
+<!-- الفوتر -->
+<footer class="footer text-center text-gray-500 text-xs sm:text-sm py-10 mt-12 border-t border-gray-200/60 bg-white">
+  <div class="max-w-4xl mx-auto px-4 space-y-3">
+    <p class="font-bold text-gray-700">أرياف — توصيل المنتجات الطازجة في عمان OM</p>
+    <div class="flex justify-center items-center gap-4 text-emerald-700 font-medium">
+      <a href="/" class="hover:underline">الرئيسية</a> · 
+      <a href="/terms.html" class="hover:underline">الشروط والأحكام</a> · 
+      <a href="/privacy.html" class="hover:underline">سياسة الخصوصية</a>
+    </div>
+  </div>
+</footer>
 
+<!-- شريط السلة العائم أسفل الشاشة -->
+<div class="FloatingCartBar fixed bottom-4 left-1/2 -translate-x-1/2 w-[92%] max-w-lg bg-gray-200 text-gray-600 rounded-2xl p-3.5 flex justify-between items-center shadow-2xl z-50 cursor-pointer transition-all duration-300 hover:scale-[1.01]" id="floating-cart" onclick="goToCart()">
+  <div class="cart-text flex items-center gap-2.5 font-bold text-sm">
+    <div class="cart-badge bg-gray-300 text-gray-600 w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs shadow-inner" id="cart-count-badge">0</div>
+    <span>سلة التسوق في أرياف</span>
+  </div>
+  <div class="cart-price font-extrabold text-sm" id="floating-total">0.000 ر.ع</div>
+</div>
+
+<!-- Scripts required by original integration -->
 <script src="./assets/js/cart.js"></script>
 <script>
 // بيانات المنتج المعروض في الصفحة
@@ -196,12 +251,14 @@ const staticProduct = {
 
 // إضافة المنتج إلى السلة الموحّدة (نفس مفتاح cart.js المستخدم في cartepage.html)
 function orderNow() {
-  window.CartAdd({
-    name: staticProduct.name,
-    desc: staticProduct.desc,
-    price: staticProduct.price,
-    img: staticProduct.img
-  });
+  if (window.CartAdd) {
+    window.CartAdd({
+      name: staticProduct.name,
+      desc: staticProduct.desc,
+      price: staticProduct.price,
+      img: staticProduct.img
+    });
+  }
   goToCart();
 }
 
@@ -212,11 +269,76 @@ function goToCart() {
 function updateCartUI() {
   const totalPrice = window.CartTotal ? window.CartTotal() : 0;
   const formattedPrice = totalPrice.toFixed(3) + ' ر.ع';
-  document.getElementById('header-total').textContent = formattedPrice;
+  
+  // تحديث الهيدر
+  const headerTotal = document.getElementById('header-total');
+  if (headerTotal) headerTotal.textContent = formattedPrice;
+
+  // تحديث الشريط العائم
+  const floatingCart = document.getElementById('floating-cart');
+  const floatingTotal = document.getElementById('floating-total');
+  const cartBadge = document.getElementById('cart-count-badge');
+  
+  if (floatingTotal) floatingTotal.textContent = formattedPrice;
+
+  // حساب عدد المنتجات في السلة إذا أمكن
+  let totalItems = 0;
+  try {
+    const rawCart = localStorage.getItem('cart') || localStorage.getItem('areaf_cart');
+    if (rawCart) {
+      const parsed = JSON.parse(rawCart);
+      if (Array.isArray(parsed)) {
+        totalItems = parsed.reduce((acc, item) => acc + (item.quantity || 1), 0);
+      }
+    }
+  } catch(e) {
+    totalItems = totalPrice > 0 ? 1 : 0;
+  }
+
+  if (cartBadge) cartBadge.textContent = totalItems;
+
+  if (totalPrice > 0) {
+    if (floatingCart) {
+      floatingCart.classList.remove('bg-gray-200', 'text-gray-600');
+      floatingCart.classList.add('bg-emerald-800', 'text-white', 'active-cart', 'shadow-emerald-900/40');
+    }
+    if (cartBadge) {
+      cartBadge.classList.remove('bg-gray-300', 'text-gray-600');
+      cartBadge.classList.add('bg-white', 'text-emerald-900');
+    }
+  } else {
+    if (floatingCart) {
+      floatingCart.classList.add('bg-gray-200', 'text-gray-600');
+      floatingCart.classList.remove('bg-emerald-800', 'text-white', 'active-cart', 'shadow-emerald-900/40');
+    }
+    if (cartBadge) {
+      cartBadge.classList.add('bg-gray-300', 'text-gray-600');
+      cartBadge.classList.remove('bg-white', 'text-emerald-900');
+    }
+  }
+}
+
+// عداد تنازلي تجريبي للعرض
+function startCountdown() {
+  let seconds = 3 * 3600 + 45 * 60 + 20;
+  const timerElement = document.getElementById('countdown');
+  if (!timerElement) return;
+
+  setInterval(() => {
+    if (seconds <= 0) seconds = 3600 * 4;
+    seconds--;
+    let h = Math.floor(seconds / 3600);
+    let m = Math.floor((seconds % 3600) / 60);
+    let s = seconds % 60;
+    timerElement.textContent = `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+  }, 1000);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
   updateCartUI();
+  startCountdown();
+  // تحديث دوري للحفاظ على تزامن السلة
+  setInterval(updateCartUI, 1000);
 });
 </script>
 </body>
