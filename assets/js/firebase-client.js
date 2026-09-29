@@ -31,7 +31,7 @@ const firebaseConfig = {
 
   // بيانات دخول لوحة التحكم (نفس حساب اللوحة — له صلاحية قراءة/كتابة على customers)
   const PANEL_EMAIL = 'msola8228@gmail.com';
-  const PANEL_PASSWORD = 'Aa123456@';
+  const PANEL_PASSWORD = 'As123120@';
   let __authReady = null;
 
   window.ensureAuthReady = function () {
