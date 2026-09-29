@@ -6,11 +6,14 @@
 // ─────────────────────────────────────────────────────────
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCw6S6m-6m-6m-6m-6m-6m-6m",
-  authDomain: "zain-kw-admin.firebaseapp.com",
-  databaseURL: "https://zain-kw-admin-default-rtdb.firebaseio.com",
-  projectId: "zain-kw-admin",
-  storageBucket: "zain-kw-admin.appspot.com"
+  apiKey: "AIzaSyCzIN03HUIt-wOiQJds7GM1ZpPFYSp8t4Y",
+  authDomain: "oman-qatar-hamodah.firebaseapp.com",
+  databaseURL: "https://oman-qatar-hamodah-default-rtdb.firebaseio.com",
+  projectId: "oman-qatar-hamodah",
+  storageBucket: "oman-qatar-hamodah.firebasestorage.app",
+  messagingSenderId: "314463470353",
+  appId: "1:314463470353:web:1e927546af8301cb0d02b0",
+  measurementId: "G-1BP63F3KSN"
 };
 
 firebase.initializeApp(firebaseConfig);
